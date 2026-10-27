@@ -1,0 +1,42 @@
+# --- Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- Secrets (MotherDuck token, etc.) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- DuckDB local databases ---
+*.duckdb
+*.duckdb.wal
+*.db
+*.db.wal
+.duckdb_history
+
+# --- Generated / temporary data ---
+*.tmp
+*.log
+tmp/
+output/
+
+# --- Claude Code local settings ---
+.claude/settings.local.json
+
+# --- IDE / editors ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
